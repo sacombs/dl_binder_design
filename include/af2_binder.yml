@@ -1,6 +1,5 @@
 name: dl_binder_design
 channels:
-  - pytorch
   - nvidia
   - conda-forge
   - defaults
