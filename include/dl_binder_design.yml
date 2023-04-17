@@ -6,14 +6,11 @@ channels:
   - defaults
     #- https://conda.graylab.jhu.edu
 dependencies:
-  - cudatoolkit=11.1
   - python=3.9
+  - pip
   - pytorch=1.9
   - biopython
-  - ml-collections
-  - tensorflow
-  - pip
-
+  - cudatoolkit=11.1
   - pip:
     - --find-links https://storage.googleapis.com/jax-releases/jax_cuda_releases.html 
     - jax==0.2.19
